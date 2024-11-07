@@ -13,6 +13,10 @@ public class JavaTimeAppl {
         System.out.println("Local time " + localTime);
         System.out.println("Local date and time " + localDateTime);
 
+
+        //fsgfrfdgf
+
+
         //Formatter
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate today = LocalDate.parse("07/11/2024", formatter);
