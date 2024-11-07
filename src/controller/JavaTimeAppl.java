@@ -13,6 +13,10 @@ public class JavaTimeAppl {
         System.out.println("Local time " + localTime);
         System.out.println("Local date and time " + localDateTime);
 
+
+        //fsgfrfdgf
+
+
         //Formatter
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
         LocalDate today = LocalDate.parse("07/11/2024", formatter);
@@ -66,6 +70,8 @@ public class JavaTimeAppl {
         System.out.println("Time 1 is before Time 2: " + time1.isAfter(time2));
 
         //Using Temporal Adjusters for custom date adjustments
+
+//        dngfkjfngkj
 
         LocalDate now = LocalDate.now();
         LocalDate nextSunday = now.with(TemporalAdjusters.next(DayOfWeek.SUNDAY));
