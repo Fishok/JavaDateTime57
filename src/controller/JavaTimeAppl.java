@@ -68,7 +68,7 @@ public class JavaTimeAppl {
         //Using Temporal Adjusters for custom date adjustments
 
 //        dngfkjfngkj
-        
+
         LocalDate now = LocalDate.now();
         LocalDate nextSunday = now.with(TemporalAdjusters.next(DayOfWeek.SUNDAY));
         System.out.println("Next Sunday: " + nextSunday);
